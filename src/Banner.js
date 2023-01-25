@@ -44,6 +44,7 @@ function Banner() {
 
     // ====설명 줄이기...=====
     function truncate(str,num) {
+        //substr 으로 줄여서 보여주기
         return str?.length>num ?str.substr(0,num -1)+ "...": str;
     }
     return(
@@ -76,3 +77,4 @@ export default Banner;
 
 //https://ytube.io/3aAi
 // 1:01:55 까지 시청
+// api문제 변경해야 될수도 있음 ㅠㅠ  컴퍼넌트화가 어려울 수도 있음
